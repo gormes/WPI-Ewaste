@@ -19,7 +19,7 @@ To install, unzip the \'ewastecoding\' zip file within the \"SQLdatabase\' folde
 As a backup, there are .csv files for each of the 5 tables of raw data in our database.
 
 ### Relational Schema
-![relationalschema](https://i.imgur.com/Wo1rwrn.jpg)
+![relationalschema](https://i.imgur.com/X4i1Kex.jpg)
 The \'id\' table assigns an arbitrary id number to each article, linking it to the citation of the article, the year of publication and the category of the source, either \'academic\', \'ngo\', or \'news\'. In the \'coding table\', the article id relates each article to the code, or topic. The \'locationtocountry\' table is a standardized list of locations we found throughout our research and the country they are in. The \'location\' table associates the article to the locations mentioned in it by articleId. The articleLocation column is a foreign key from the \'locationtocountry\' so each location is standardized. The \'newsourcecountry\' lists the country of origin for each news article. Our content analysis methodology, reflected in this database, is described in [our research paper](https://web.wpi.edu/Pubs/E-project/browse/iqp_by_author/all.html).
 
 ## Authors
