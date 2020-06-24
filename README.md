@@ -5,7 +5,7 @@ This repository contains the database from the WPI E20 E-waste IQP. We created t
 There are two views of our data available. The excel files contains in the \'Exceldatabase\' folder are copies of the tables from our database and views with the most useful associations we found. The \'SQLdatabase\' folder has a zip file containing an export of the database, .csv files for each of our tables as a backup, and a small SQL tutorial for those who are unfamiliar.
 
 ### Excel Files
-Inside the \'Exceldatabase\' folder contains the \'ewastecoding.xlsx\' The first five tabs are copies of the 5 tables in our database. For a more thorough description of each, review the Relation Schema section below. On the following tabs, associations and graphs of relevant articles over time, density maps of the locations found and more.
+Inside the \'ExcelData\' folder contains the \'ewastecoding.xlsx\' The first five tabs are copies of the 5 tables in our database. For a more thorough description of each, review the Relation Schema section below. On the following tabs, associations and graphs of relevant articles over time, density maps of the locations found and more.
 
 ### MySQL Database 
 This database relates each article, by article id, to its citation, year of publication, E-waste hub locations mentioned, and the topics addressed. This information is split between 5 relations described below. Additionally, there are views which show relationships we found were the most relevant.
@@ -15,7 +15,7 @@ A copy of MySQL Workbench.
 *Within the MySQL folder, there is a tutorial document to install MySQL Workbench, import the database, and write simple queries.*
 
 #### Installing This Schema 
-To install, unzip the \'ewastecoding\' zip file within the \"SQLdatabase\' folder and import into MySQLWorkbench.
+To install, unzip the \'ewastecoding\' zip file within the \"SQLDatabase\' folder and import into MySQLWorkbench.
 As a backup, there are .csv files for each of the 5 tables of raw data in our database.
 
 ### Relational Schema
