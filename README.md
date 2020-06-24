@@ -22,6 +22,21 @@ As a backup, there are .csv files for each of the 5 tables of raw data in our da
 ![relationalschema](https://i.imgur.com/X4i1Kex.jpg)
 The \'id\' table assigns an arbitrary id number to each article, linking it to the citation of the article, the year of publication and the category of the source, either \'academic\', \'ngo\', or \'news\'. In the \'coding table\', the article id relates each article to the code, or topic. The \'locationtocountry\' table is a standardized list of locations we found throughout our research and the country they are in. The \'location\' table associates the article to the locations mentioned in it by articleId. The articleLocation column is a foreign key from the \'locationtocountry\' so each location is standardized. The \'newsourcecountry\' lists the country of origin for each news article. Our content analysis methodology, reflected in this database, is described in [our research paper](https://web.wpi.edu/Pubs/E-project/browse/iqp_by_author/all.html).
 
+#### List of Views
+* allcode - Lists all the codes used in the coding table 
+* countrycount - Lists each country in the locationtocountry table and the number of instances of locations within each across all articles
+* firstyearmentioned - Lists each location in the locationtocountry table and the first year that location was mentioned in the literature
+* firstyearutility - Lists each country and the year and if it was mentioned in that year as a utility for the 'firstyearmentioned' view
+* locationcodespread - Lists each location in the locationtocountry table and the number of times an article associated that location with each code.
+* locationid - Lists every location in the locationtocountry table and the id associated with it
+* locationidcode - Lists every location in the locationtocountry table with the id number and code it is associated with
+* locationidyear - Lists every location in the locationtocountry table with the id it has been associated with and the year the article was published
+* locationyearspread - Lists each location in the locationtocountry table and the number of times it was mentioned in articles from 2000-2020
+* overallcodecounts - Lists each code and the number of time an article mentioned that topic
+* overallocationcounts - Lists each location in locationtocountry with the number of times that location was mentioned
+* uniquecountrycount - Lists the number of countries with locations mentioned in them
+* uniquelocationcount - Lists the number of unique locations within the location table
+
 ## Authors
 * **Gwyneth Ormes** - *Initial Work* - [gormes](https://github.com/gormes)
 * **Nicholas Tourtillott** - *Data Contributor* - [njtourtillott](https://github.com/njtourtillott)
