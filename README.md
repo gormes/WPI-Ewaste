@@ -27,7 +27,8 @@ The \'id\' table assigns an arbitrary id number to each article, linking it to t
 * countrycount - Lists each country in the locationtocountry table and the number of instances of locations within each across all articles
 * firstyearmentioned - Lists each location in the locationtocountry table and the first year that location was mentioned in the literature
 * firstyearutility - Lists each country and the year and if it was mentioned in that year as a utility for the 'firstyearmentioned' view
-* locationcodespread - Lists each location in the locationtocountry table and the number of times an article associated that location with each code.
+* locationcitationinfo - Lists each location mentioned in articles with the citation it came from, the date of publication and the infosource
+* locationcodespread - Lists each location in the locationtocountry table and the number of times an article associated that location with each code
 * locationid - Lists every location in the locationtocountry table and the id associated with it
 * locationidcode - Lists every location in the locationtocountry table with the id number and code it is associated with
 * locationidyear - Lists every location in the locationtocountry table with the id it has been associated with and the year the article was published
