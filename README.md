@@ -42,7 +42,7 @@ The \'id\' table assigns an arbitrary id number to each article, linking it to t
 * **Gwyneth Ormes** - *Initial Work* - [gormes](https://github.com/gormes)
 * **Nicholas Tourtillott** - *Data Contributor* - [njtourtillott](https://github.com/njtourtillott)
 * **Brigid Auclair** - *Data Contributor* - [bauclair22](https://github.com/bauclair22)
-* **David Smith** - *Data Contributor*
+* **David Smith** - *Data Contributor* - [Dasimth2wpi](https://github.com/Dasmith2wpi)
 
 ## Built With
 * MySQLWorkbench 8.0 CE
@@ -50,4 +50,4 @@ The \'id\' table assigns an arbitrary id number to each article, linking it to t
 * Google Sheets 2020
 
 ## Acknowledgements
-We would like to express our gratitude to Professor Brattin and Professor Davis, our IQP advisors, for their patient guidance, useful critiques and essential support throughout this research project. We would also like to thank Professor Butler, our PQP professor, for helping our team develop our project from an idea into a something achievable.
+We would like to express our gratitude to Professor Brattin and Professor Davis, our IQP advisors, for their patient guidance, useful critiques and essential support throughout this research project. We would also like to thank Professor Butler, our ID 2050 professor, for helping our team develop our project from an idea into something achievable.
