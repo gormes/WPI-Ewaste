@@ -6,6 +6,7 @@ There are two views of our data available. The excel files contains in the \'Exc
 
 ### Excel Files
 Inside the \'ExcelData\' folder contains the \'SQL Tables\' folder as well as 15 other tables. \'SQL Tables\' contains comma separated values for each of the tables in our database as well as the \'SQL Tables.xlsx\' that has a more readable version. All of the other files in the folder are associations we found to me the most valuable in our project. A description of each is listed here:
+* Code Citation References.xlsx: Lists each code with the citation reference numbers that discuss the topic.
 * Comparisons of Counts Across Years Between Media Types.xlsx: Compares the number of articles from academic, news and NGO sources relating to informal E-waste recycling that were published from 2000-2020.
 * Country Distribution and Map.xlsx: Country-wide distribution of informal E-waste recycling mentions from academic literature. There is also a graph visualizing the distribution that we adapted for our research paper.
 * Hubs Mentions By Source: Distribution of mentions between academic, news and NGO sources that mention each informal E-waste hub we identified.
@@ -17,7 +18,7 @@ Inside the \'ExcelData\' folder contains the \'SQL Tables\' folder as well as 15
 * News Source Code Breakdown.xlsx: Breakdown of codes between each news origin country. 
 * News Source Location Counts.xlsx: Comparision of location mentions between each news origin country.
 * Percentage of Articles Relating to Each Code.xlsx: Shows the percentages of each code across each source type
-* Years First Mentions.xlsx: Shows the first year every location was mentioned=
+* Years First Mentions.xlsx: Shows the first year every location was mentioned
 
 ### MySQL Database 
 This database relates each article, by article id, to its citation, year of publication, E-waste hub locations mentioned, and the topics addressed. This information is split between 7 relations described below. Additionally, there are views which show relationships we found were the most relevant.
